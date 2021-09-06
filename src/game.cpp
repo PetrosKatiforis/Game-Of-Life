@@ -134,7 +134,7 @@ void Game::generateGrid()
 
 void Game::drawGrid() 
 {
-  // Drawing cell shapes
+  // Drawing cell positions
 
   for (int i = 0; i < GRID_HEIGHT; i++) 
   {
