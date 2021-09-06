@@ -34,7 +34,7 @@ void Game::processGameLoop()
 {
   window.clear(sf::Color(0, 100, 100));
 
-  // Advance to the next generation once every second
+  // Advance to the next generation with a delay of generationInterval
   if (timer.getElapsedTime() >= sf::seconds(generationInterval) && 
       !getIsPaused()) 
   {
