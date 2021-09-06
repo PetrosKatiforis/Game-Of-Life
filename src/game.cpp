@@ -34,7 +34,7 @@ void Game::processGameLoop()
 {
   window.clear(sf::Color(0, 100, 100));
 
-  // Advance to the next generation once every second
+  // Advance to the next generation with a delay of generationInterval
   if (timer.getElapsedTime() >= sf::seconds(generationInterval) && 
       !getIsPaused()) 
   {
@@ -121,7 +121,7 @@ void Game::advanceGridGeneration()
 
 void Game::generateGrid() 
 {
-  // Initializing cell sizes
+  // Initializing cell positions
 
   for (int i = 0; i < GRID_HEIGHT; i++) 
   {
@@ -134,7 +134,7 @@ void Game::generateGrid()
 
 void Game::drawGrid() 
 {
-  // Drawing cell shapes
+  // Drawing the cells
 
   for (int i = 0; i < GRID_HEIGHT; i++) 
   {
