@@ -10,3 +10,10 @@ https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 <p>
   <img src="/Screenshots/Screenshot.png" alt"Game Of Life Using SFML" />
 </p>
+
+<br />
+
+## Running the game
+
+After cloning the repository, `` cd `` into the project and run `` make install `` to start the compiling process <br />
+You can then execute it by running `` /bin/executable.out ``
