@@ -121,7 +121,7 @@ void Game::advanceGridGeneration()
 
 void Game::generateGrid() 
 {
-  // Initializing cell sizes
+  // Initializing cell positions
 
   for (int i = 0; i < GRID_HEIGHT; i++) 
   {
@@ -134,7 +134,7 @@ void Game::generateGrid()
 
 void Game::drawGrid() 
 {
-  // Drawing cell positions
+  // Drawing the cells
 
   for (int i = 0; i < GRID_HEIGHT; i++) 
   {
