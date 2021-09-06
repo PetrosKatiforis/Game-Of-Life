@@ -1,6 +1,6 @@
 # SFML Game Of Life
 
-This repository contains a simple SFML/C++ implementation of Conway's "Game Of Life". <br />
+This repository contains a simple SFML/C++ implementation of Conway's "Game Of Life" <br />
 The project's structure consists of two main classes, "Game" and "Cell"
 
 If you're looking for more details on how the game works, you can check out this excellent wikipedia article: <br />
