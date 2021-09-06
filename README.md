@@ -15,7 +15,7 @@ https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 
 ## Running the game
 
-After cloning the repository, `` cd `` into the project and run `` make install `` to start the compiling process <br />
-You might also need to install the sfml dependencies specified inside the Makefile <br />
+After cloning the repository, `` cd `` into the project and run `` make install `` to start the compiling process. <br />
+You might also need to install the sfml dependencies specified inside the Makefile. <br />
 
 You can then execute it by running `` /bin/executable.out ``
