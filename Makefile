@@ -11,7 +11,7 @@ $(info $(shell mkdir -p $(binaries_dir) $(objects_dir)))
 
 # Compiling project
 install: $(objects)
-	g++ $(objects) -g $(libs) -o $(executable)
+	g++ $(objects) $(libs) -o $(executable)
 
 # Building the object files
 $(objects_dir)/%.o: $(source_dir)/%.cpp 
