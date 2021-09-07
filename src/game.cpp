@@ -67,8 +67,8 @@ void Game::handleInput()
       // Divide the mouse position by CELL_SIZE to determine the exact grid position
       sf::Vector2i position = sf::Mouse::getPosition(window) / CELL_SIZE;
 
-      Cell* targetCell = &grid[position.y][position.x];
-      targetCell->setIsAlive(!targetCell->getIsAlive());
+      Cell& target = grid[position.y][position.x];
+      target.setIsAlive(!target.getIsAlive());
     }
   }
 }
